@@ -4,7 +4,7 @@ export const Home = () => {
   return (
     <section
       id="home"
-      className="min-h-screen flex items-center justify-center relative"
+      className="min-h-screen flex items-center justify-center relative pt-20 md:pt-0"
     >
       {/* Foreground Content */}
       <RevealOnScroll>
