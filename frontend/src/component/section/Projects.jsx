@@ -14,7 +14,7 @@ export const Projects = () => {
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* DaisyUI Card: Cloud Platform */}
-            <div className="card bg-base-200/10 shadow-xl border border-white/10 hover:border-primary hover:shadow-lg transition backdrop-blur-sm">
+            {/* <div className="card bg-base-200/10 shadow-xl border border-white/10 hover:border-primary hover:shadow-lg transition backdrop-blur-sm">
               <div className="card-body">
                 <h3 className="card-title text-white">Cloud Platform</h3>
                 <p className="text-gray-300 mb-4 drop-shadow-lg">
@@ -29,9 +29,9 @@ export const Projects = () => {
                   <a href="#" className="btn btn-sm btn-primary backdrop-blur-sm">View Project →</a>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* DaisyUI Card: AI Analytics Dashboard */}
-            <div className="card bg-base-200/10 shadow-xl border border-white/10 hover:border-primary hover:shadow-lg transition backdrop-blur-sm">
+            {/* <div className="card bg-base-200/10 shadow-xl border border-white/10 hover:border-primary hover:shadow-lg transition backdrop-blur-sm">
               <div className="card-body">
                 <h3 className="card-title text-white">AI Analytics Dashboard</h3>
                 <p className="text-gray-300 mb-4 drop-shadow-lg">
@@ -46,7 +46,7 @@ export const Projects = () => {
                   <a href="#" className="btn btn-sm btn-primary backdrop-blur-sm">View Project →</a>
                 </div>
               </div>
-            </div>
+            </div> */}
             {/* DaisyUI Card: E-Commerce Web App */}
             <div className="card bg-base-200/10 shadow-xl border border-white/10 hover:border-primary hover:shadow-lg transition backdrop-blur-sm">
               <div className="card-body">
@@ -60,7 +60,7 @@ export const Projects = () => {
                   ))}
                 </div>
                 <div className="card-actions justify-end">
-                  <a href="#" className="btn btn-sm btn-primary backdrop-blur-sm">View Project →</a>
+                  <a href="https://bidcartt.onrender.com/" className="btn btn-sm btn-primary backdrop-blur-sm">View Project →</a>
                 </div>
               </div>
             </div>
