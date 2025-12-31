@@ -10,11 +10,11 @@ export const Home = () => {
       <RevealOnScroll>
         <div className="z-10 px-4 relative w-full max-w-6xl mx-auto">
           {/* Main content container with flex layout */}
-          <div className="flex flex-col md:flex-row items-center md:items-start gap-8 md:gap-12">
+          <div className="flex flex-col md:flex-row items-center md:items-start gap-4 md:gap-12">
             {/* Profile Picture with floating animation - Left side */}
-            <div className="flex-shrink-0">
-              <div className="relative animate-float">
-                <div className="w-40 h-40 sm:w-48 sm:h-48 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72 rounded-full overflow-hidden border-4 border-blue-500/20 shadow-2xl hover:scale-105 transition-transform duration-300 relative">
+            <div className="flex-shrink-0 w-full md:w-auto flex justify-center md:justify-start">
+              <div className="relative animate-float w-32 h-32 sm:w-40 sm:h-40 md:w-56 md:h-56 lg:w-64 lg:h-64 xl:w-72 xl:h-72">
+                <div className="w-full h-full rounded-full overflow-hidden border-4 border-blue-500/20 shadow-2xl hover:scale-105 transition-transform duration-300 relative">
                   <img
                     src="/pallab.jpg"
                     alt="Pallab Das"
@@ -41,10 +41,10 @@ export const Home = () => {
             </div>
 
             {/* Text content - Right side */}
-            <div className="text-left flex-1">
+            <div className="text-center md:text-left flex-1 w-full md:w-auto">
               {/* Name with typing animation */}
               <div className="mb-6">
-                <h1 className="text-5xl md:text-7xl font-bold leading-tight animate-fade-in-up">
+                <h1 className="text-3xl sm:text-4xl md:text-7xl font-bold leading-tight animate-fade-in-up">
                   <span className="bg-gradient-to-r from-blue-500 to-cyan-400 bg-clip-text text-transparent">
                     Hi, I'm 
                   </span>
